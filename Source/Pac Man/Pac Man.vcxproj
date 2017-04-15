@@ -72,8 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)..\Build\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)..\Build\$(Configuration)\Intermediate</IntDir>
+    <OutDir>$(SolutionDir)..\Temp\Builds\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\Builds\$(Configuration)\Intermediate</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
